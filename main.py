@@ -9,11 +9,11 @@ import subprocess
 import torch
 
 
-video_file = "mnt/e/!MotskinAI/tracking/02_sam_autoannotation_tracking_in_video/videos/f-16.mp4"    # местоположение исходного видео 
+video_file = "/mnt/e/!MotskinAI/tracking/02_sam_autoannotation_tracking_in_video/videos/f-16.mp4"    # местоположение исходного видео 
 temp_video_dir = f"/mnt/r/temp_sam"                             # временная папка для сохранения раскадровки видео
 
-sam2_checkpoint = "sam2/checkpoints/sam2_hiera_large.pt"             # используемые веса для модели
-model_cfg = "sam2_hiera_l.yaml"                                 # конфигурация модели
+sam2_checkpoint = "checkpoints/sam2.1_hiera_large.pt"             # используемые веса для модели
+model_cfg = "configs/sam2.1_hiera_l.yaml"                                 # конфигурация модели
 
 width = 1800                            # размер экрана для отображения. можно было и автоматически рассчитать...
 height = 1000

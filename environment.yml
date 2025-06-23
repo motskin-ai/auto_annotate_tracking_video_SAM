@@ -1,8 +1,5 @@
 name: sam_2
 channels:
-  - anaconda
-  - nvidia
-  - pytorch
   - defaults
   - conda-forge
 dependencies:
@@ -19,15 +16,10 @@ dependencies:
     - iopath==0.1.10
     - pillow==11.1.0
 
-    # - matplotlib==3.10.0
-    # - jupyter>=1.0.0
+    - matplotlib==3.10.0
+    - jupyter>=1.0.0
     - opencv-python==4.11.0.86
+    - eva-decord>=0.6.1
 
-    # - black==24.2.0
-    # - usort==1.0.2
-    # - ufmt==2.0.0b2
-
-    # # для примера из ноутбука Roboflow: https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/how-to-segment-images-with-sam-2.ipynb#scrollTo=UGv98ypgPA7c
-    # - supervision
-    # - jupyter_bbox_widget
+    - 'git+https://github.com/facebookresearch/sam2.git'
 
