@@ -18,12 +18,12 @@ conda env create -f environment.yml
 
 2. После успешного создания окружения активируем его. </br>
 ```bash
-conda activate sam_2`
+conda activate sam_2
 ```
 
 3. Скачиваем модель в папку checkpoints. Здесь пример скачивания большой модели</br>
 ```bash
-wget https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_large.pt -P checkpoints`
+wget https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_large.pt -P checkpoints
 ```
 
 4. В результате в папке checkpoints должна оказаться большая модель. Если вам нужна поменьше, то скачивайте меньшую, только в коде нужно будет изменить ссылку и конфиг </br>

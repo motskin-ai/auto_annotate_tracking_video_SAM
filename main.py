@@ -13,7 +13,7 @@ video_file = "/mnt/e/!MotskinAI/tracking/02_sam_autoannotation_tracking_in_video
 temp_video_dir = f"/mnt/r/temp_sam"                             # временная папка для сохранения раскадровки видео
 
 sam2_checkpoint = "checkpoints/sam2.1_hiera_large.pt"             # используемые веса для модели
-model_cfg = "configs/sam2.1_hiera_l.yaml"                                 # конфигурация модели
+model_cfg = "configs/sam2.1/sam2.1_hiera_l.yaml"                                 # конфигурация модели
 
 width = 1800                            # размер экрана для отображения. можно было и автоматически рассчитать...
 height = 1000
